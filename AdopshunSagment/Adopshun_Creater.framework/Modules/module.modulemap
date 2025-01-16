@@ -1,0 +1,4 @@
+framework module Adopshun_Creater {
+  header "Adopshun_Creater-Swift.h"
+  requires objc
+}

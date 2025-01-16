@@ -1,0 +1,11 @@
+framework module AdopshunSDK {
+  umbrella header "AdopshunSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module AdopshunSDK.Swift {
+  header "AdopshunSDK-Swift.h"
+  requires objc
+}
