@@ -9,3 +9,6 @@ updates:
     directory: "/Podfile" # Location of package manifests
     schedule:
       interval: "daily"
+      commit-message:
+      prefix: "CocoaPods"
+    open-pull-requests-limit: 5
