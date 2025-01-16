@@ -9,11 +9,8 @@ updates:
     directory: "/Podfile" # Location of package manifests
     schedule:
       interval: "daily"
-    commit-message:
-      prefix: "CocoaPods"
-    open-pull-requests-limit: 5
-    registries:
-      private-registry:
-        type: "git"
-        url: "https://github.com/username/private-repo.git"
-        token: "${{ secrets.DEPENDABOT_TOKEN }}"
+registries:
+  private-registry:
+    type: "git"
+    url: "https://github.com/username/private-repo.git"
+    token: "${{ secrets.DEPENDABOT_TOKEN }}"
